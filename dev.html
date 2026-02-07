@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+    <head><!--ページを開くところ-->
+        <meta charset="UTF-8"><!--文字を日本語-->
+        <title>作画メモ</title>
+        <link rel="stylesheet" href="css/style.css"><!--css呼び出し-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--スマホで見れるようにする  -->
+        <meta name="robots" content="noindex,nofollow"><!-- 検索エンジン出ないようにする -->
+    </head>
+    <body>
+        <header>
+            <a href="index.html">ホーム</a>
+            <a>検索</a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#vscode">visual vasic code</a></li>
+                <li><a href="#code">用語の意味</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">javaScript</a></li>
+                <li><a href="#other">その他</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="vscode">
+                <h2>visual vasic code</h2>
+            </section>
+            <section id="code">
+                <h2>用語の意味</h2>
+                <article>html：&lt;pre&gt;&lt;code&gt;というのはコードであることを示すための要素</article>
+                <table border="1">
+                    <tr>
+                        <th>&lt;　&gt;</th><th>&amp;lt;　&amp;gt;</th>
+                    </tr>
+                    <tr>
+                        <th>「&」がついたコードを表示</th><th>& amp;</th>
+                    </tr>
+                </table>
+            </section>
+            <section id="html">
+                <h2>HTML</h2>
+                <article>
+                    <p class="purpose">ページ内にリンク貼ってとぶ</p><!--purpose：目的  -->
+                    <p class="answer">移動先に「id」をつける。リンクに「#id」をつける。</p>
+                    <pre class="code">
+                        <code>
+                            &lt;!-- リンク元 --&gt;
+                            &lt;li&gt;&lt;a href=&quot;#code&quot;&gt;用語の意味&lt;/a&gt;&lt;/li&gt;<br>
+                            &lt;!-- 移動先 --&gt;
+                            &lt;section id=&quot;code&quot;&gt;用語の意味&lt;/section&gt;
+                        </code>
+                    </pre>
+                    <p class="note">
+                        「section」じゃなくても「&lt;h2 id=～&gt;」とかできる
+                    </p>
+                </article>
+            </section>
+            <section id="css">
+                <h2>css</h2>
+            </section>
+            <section id="js">
+                <h2>java script</h2>
+            </section>
+            <section id="other">
+                <h2>other</h2>
+            </section>
+        </main>
+    </body>
+</html>
