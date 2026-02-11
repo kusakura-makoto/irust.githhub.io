@@ -25,24 +25,54 @@
         <main>
             <section id="vscode">
                 <h2>visual vasic code</h2>
+                <article class="memo" id="vscode-commentout">
+                    <div class="qa purpose">
+                        <span class="qa-label">Q.</span>
+                        <p>コメントアウトのショートカット</p>
+                    </div>
+                    <div class="qa answer">
+                        <span class="qa-label">A.</span>
+                        <p>shift+alt+A　or　ctrl+/</p>
+                    </div>
+                </article>
+
             </section>
             <section id="code">
                 <h2>用語の意味</h2>
-                <article>html：&lt;pre&gt;&lt;code&gt;というのはコードであることを示すための要素</article>
-                <table border="1">
+                <article class="memo" id="code-display">
+                    <h3>HTML</h3>
+                    <div class="qa purpose">
+                        <span class="qa-label">Q.</span>
+                        <p>&lt;pre&gt;&lt;code&gt;</p>
+                    </div>
+                    <div class="qa answer">
+                        <span class="qa-label">A.</span>
+                        <p>コードであることを示すための要素</p>
+                    </div>
+                </article>
+                <table class="code-table" border="1">
                     <tr>
-                        <th>&lt;　&gt;</th><th>&amp;lt;　&amp;gt;</th>
+                        <th>表示</th><th>コード</th>
                     </tr>
                     <tr>
-                        <th>「&」がついたコードを表示</th><th>& amp;</th>
+                        <td>&lt;　&gt;</td><td>&amp;lt;　&amp;gt;</td>
+                    </tr>
+                    <tr>
+                        <td>「&」がついたコードを表示</td><td>& amp;</td>
                     </tr>
                 </table>
             </section>
             <section id="html">
                 <h2>HTML</h2>
-                <article>
-                    <p class="purpose">ページ内にリンク貼ってとぶ</p><!--purpose：目的  -->
-                    <p class="answer">移動先に「id」をつける。リンクに「#id」をつける。</p>
+                <article class="memo" id="html-pagelink">
+                    <div class="qa purpose">
+                        <span class="qa-label">Q.</span>
+                        <p>ページ内にリンク貼ってとぶ</p><!--purpose：目的  -->
+                    </div>
+                    <div class="qa answer">
+                        <span class="qa-label">A.</span>
+                        <p>移動先に「id」をつける。リンクに「#id」をつける。</p>
+                    </div>
                     <pre class="code">
                         <code>
                             &lt;!-- リンク元 --&gt;
@@ -51,9 +81,10 @@
                             &lt;section id=&quot;code&quot;&gt;用語の意味&lt;/section&gt;
                         </code>
                     </pre>
-                    <p class="note">
-                        「section」じゃなくても「&lt;h2 id=～&gt;」とかできる
-                    </p>
+                    <div class="note">
+                        <span class="note-label">補足</span>
+                        <p>「section」じゃなくても「&lt;h2 id=～&gt;」とかできる</p>
+                    </div>
                 </article>
             </section>
             <section id="css">

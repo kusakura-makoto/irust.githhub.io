@@ -4,12 +4,18 @@
         <meta charset="UTF-8"><!--文字を日本語-->
         <title>作画メモ</title>
         <link rel="stylesheet" href="css/style.css"><!--css呼び出し-->
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--スマホで見れるようにする  -->
         <meta name="robots" content="noindex,nofollow"><!-- 検索エンジン出ないようにする -->
     </head>
     <body>
         <header>
-            <a>検索</a>>
+            <!-- 検索フォーム -->
+             <form action="file:///F:/%E7%B5%B5/dev.html" method="get">
+                <input type="search" name="search" placeholder="キーワードを入力">
+                <input type="submit" name="submit" value="検索">
+             </form>
+            <a>検索</a>
         </header>
         <section>
             <h2>作画メモ</h2>
@@ -25,5 +31,6 @@
                 <li><a href="dev.html">コードメモ</a></li>
             </ul>
         </section>
+        <script src="js/search.js"></script><!-- 検索機能を呼び出し -->
     </body>
 </html>
